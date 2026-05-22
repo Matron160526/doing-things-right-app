@@ -1,63 +1,68 @@
 export default function DoingThingsRightPlatform() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-yellow-900 text-white">
-      <section className="max-w-7xl mx-auto px-6 py-20 flex flex-col items-center text-center">
+      <section className="flex flex-col items-center justify-center text-center px-6 py-24">
+        
+        <div className="bg-white/10 backdrop-blur-md p-10 rounded-3xl shadow-2xl max-w-5xl">
+          
+          <h1 className="text-5xl md:text-7xl font-extrabold leading-tight mb-6">
+            Doing Things Right,
+            <span className="block text-yellow-400">
+              Let’s Talk Solutions
+            </span>
+          </h1>
 
-        <h1 className="text-5xl md:text-7xl font-extrabold mb-6">
-          Doing Things Right
-        </h1>
+          <p className="text-xl md:text-2xl text-gray-200 mb-10 leading-relaxed">
+            A platform dedicated to discussing solutions for corruption,
+            governance, systemic challenges, and positive transformation
+            across every sector of life.
+          </p>
 
-        <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mb-10">
-          A platform dedicated to discussing solutions for corruption,
-          governance, systemic challenges, and positive transformation
-          across every sector of life.
-        </p>
+          <div className="flex flex-wrap justify-center gap-4">
+            
+            <button className="bg-yellow-400 hover:bg-yellow-300 text-black font-bold px-8 py-4 rounded-full transition duration-300 shadow-lg">
+              Join the Conversation
+            </button>
 
-        <div className="flex flex-wrap justify-center gap-6 mb-16">
-          <button className="bg-yellow-400 hover:bg-yellow-300 text-black px-8 py-4 rounded-2xl text-lg font-bold shadow-xl transition">
-            Join the Conversation
-          </button>
+            <button className="border border-white hover:bg-white hover:text-black px-8 py-4 rounded-full transition duration-300">
+              Explore Topics
+            </button>
 
-          <button className="border border-white hover:bg-white hover:text-black px-8 py-4 rounded-2xl text-lg font-bold transition">
-            Learn More
-          </button>
+          </div>
+
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 w-full">
+      </section>
 
-          <div className="bg-white/10 p-8 rounded-2xl shadow-xl backdrop-blur-md">
-            <h2 className="text-2xl font-bold mb-4 text-yellow-300">
-              Governance
-            </h2>
+      <section className="grid md:grid-cols-3 gap-8 px-8 pb-20 max-w-6xl mx-auto">
 
-            <p className="text-gray-200">
-              Promoting accountability, transparency, and ethical leadership
-              in institutions and organizations.
-            </p>
-          </div>
+        <div className="bg-white/10 p-8 rounded-2xl shadow-xl">
+          <h2 className="text-2xl font-bold mb-4 text-yellow-300">
+            Governance
+          </h2>
+          <p className="text-gray-200">
+            Discuss policies, leadership, transparency, and accountability
+            for stronger institutions.
+          </p>
+        </div>
 
-          <div className="bg-white/10 p-8 rounded-2xl shadow-xl backdrop-blur-md">
-            <h2 className="text-2xl font-bold mb-4 text-yellow-300">
-              Innovation
-            </h2>
+        <div className="bg-white/10 p-8 rounded-2xl shadow-xl">
+          <h2 className="text-2xl font-bold mb-4 text-yellow-300">
+            Anti-Corruption
+          </h2>
+          <p className="text-gray-200">
+            Share ideas and solutions to combat corruption and build ethical systems.
+          </p>
+        </div>
 
-            <p className="text-gray-200">
-              Encouraging modern solutions, digital transformation, and
-              creative thinking for societal growth.
-            </p>
-          </div>
-
-          <div className="bg-white/10 p-8 rounded-2xl shadow-xl backdrop-blur-md">
-            <h2 className="text-2xl font-bold mb-4 text-yellow-300">
-              Community Impact
-            </h2>
-
-            <p className="text-gray-200">
-              Empower communities through dialogue, education,
-              collaboration, and sustainable action.
-            </p>
-          </div>
-
+        <div className="bg-white/10 p-8 rounded-2xl shadow-xl">
+          <h2 className="text-2xl font-bold mb-4 text-yellow-300">
+            Community Impact
+          </h2>
+          <p className="text-gray-200">
+            Empower communities through dialogue, education, collaboration,
+            and sustainable action.
+          </p>
         </div>
 
       </section>
